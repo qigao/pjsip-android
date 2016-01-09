@@ -9,7 +9,7 @@ git clone https://github.com/qigao/pjsip-android
 cd pjsip-android
 vagrant up
 ```
-```
+
 then you can SSH into the VM and build PJSIP:
 ```
 vagrant ssh
