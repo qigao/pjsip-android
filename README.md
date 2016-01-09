@@ -1,5 +1,6 @@
 # PJSIP Android Builder
 This is revised script from https://github.com/alexbbb/pjsip-android-builder 
+
 Easily build PJSIP with: x264,ffmpeg,opus for Android, by using a Linux virtual machine.
 
 ## Easy setup
@@ -20,7 +21,7 @@ install  necessary  libs as :
 sudo apt-get install bzip2 gcc g++ binutils make autoconf  \
           libssl-dev openjdk-7-jdk openjdk-7-jre ant \
           libpcre3 libpcre3-dev build-essential \
-          libc6-i386 libstdc++6 zlib1g
+          libc6-i386 libx32stdc++6 zlib1g
 ```
 finally, you can build pjsip now
 ```
