@@ -16,11 +16,13 @@ vagrant ssh
 cd /pjsip-android
 ```
 install  necessary  libs as :
+```
 sudo apt-get install bzip2 gcc g++ binutils make autoconf  \
           libssl-dev openjdk-7-jdk openjdk-7-jre ant \
           libpcre3 libpcre3-dev build-essential \
           libc6-i386 libstdc++6 zlib1g
-
+```
+finally, you can build pjsip now
 ```
 ./prepare-build-system
 ./build
